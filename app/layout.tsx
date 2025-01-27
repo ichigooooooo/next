@@ -24,9 +24,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+
+        <div className="flex  p-5 w-full h-20 bg-gray-100 items-center justify-between">
+
+        </div>
+        <a href="/" className="text2x1">Navbar</a>
+        
+        <div className="flex gap-5 justify-center">
+          <a href="/about" className="text-1">About</a>
+          <a href="/profile" className="text-1">Profile</a>
+        </div>
         {children}
       </body>
     </html>
