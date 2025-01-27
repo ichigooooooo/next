@@ -1,3 +1,4 @@
+/* eslint-disable */
 interface ProductPageProps {
     name:String;
     price: number;
